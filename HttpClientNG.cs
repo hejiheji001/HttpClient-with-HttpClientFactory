@@ -14,7 +14,7 @@ using Polly.Wrap;
 // https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests
 // https://github.com/App-vNext/Polly/wiki/Polly-and-HttpClientFactory
 
-namespace PacificEpoch.Lib.Net
+namespace Lib.Net
 {
 	public class HttpClientNG
 	{
