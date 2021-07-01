@@ -6,7 +6,9 @@ which is implmented in .Net Core by MS.
 
 ## Useage
 var proxy = new WebProxy("host", port);
+
 CreateClient("HttpClientName", c => { }, proxy);
+
 Build();
 
 var client = GetClient("HttpClientName");// It will give you a HttpClient instance, use it as original HttpClinet.
